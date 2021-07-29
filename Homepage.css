@@ -1,0 +1,451 @@
+
+/*-------- HOME PAGE ----------- */
+
+.logo{
+	padding-top: 10px
+}
+.menubar{
+	background-color: #445668;
+	height: 60px;
+	width:100%;
+	z-index: 10;
+    position:fixed;
+    top:0;
+}
+.navbuttons{
+	padding-right: 12px !important;
+	padding-left: 12px !important;
+	font-family: 'Ruda', Sans-Serif;
+	font-size: 16px;
+}
+.navbuttons:hover{
+	background-color: #3dc3bd;
+	border-radius: 5px;
+}
+.searchbar{
+	margin-top: 10px;
+	background-color: #6c7c84;
+	color: white;
+}
+.searchbtn{
+	margin-top:10px;
+	color: white;
+	background-color: #C3BD3D;
+}
+.currentnav{
+	background-color: #3dc3bd;
+	border-radius: 5px;
+}
+.getstartedbtn{
+	height: 75;
+	width: 225;
+	border: none;
+	border-radius: 5px;
+	background-color: #3dc3bd;
+	color: white;
+	font-size: 32px;
+	font-family: 'Ruda', Sans-Serif;
+	float:left;
+	margin-bottom: 20%;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 15px;
+}
+body{
+	background-color: #2f4357;
+	font-family: 'Roboto Slab', Serif;
+	font-size: 16px;
+    padding-top: 70px;
+}
+
+.button:hover{background-color:black;color: white;}
+.b2{border-radius: 15px;}
+
+
+.carou{
+	max-height: 300px;
+	width: 100%;
+}
+.carouimg{
+	max-height: 500px;
+}
+.quote{
+	position: relative;
+	display: block;
+	background: none;
+	color: white;
+	height: 300px;
+	padding-top: 4%;
+	width: 75%;
+}
+.quote p{
+	font-size: 40px;
+	text-align: center;
+}
+.quoteimg{
+	max-width: 300px;
+	max-height: 233px;
+}
+.quotemarks::before{
+	content: "\201c";
+	font-size: 100px;
+	color: #C3BD3D;
+	display: block;
+	margin-bottom: -80px; 
+	margin-top: -20px;
+	font-family: 'Gelasio', serif;
+}
+.quotemarks::after{
+	content: "\201D";
+	font-size: 100px;
+	color: #C3BD3D;
+	display: block;
+	margin-bottom: -40px; 
+	margin-top: -20px;
+	float: right;
+	font-family: 'Gelasio', serif;	
+}
+.slogan1{
+	color: white;
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.slogan2{
+  color: white;
+  padding-top: 100px;
+  padding-left: 130px;
+}
+.sloganimg{
+  width: 400px;
+}
+.sloganimg img{
+	max-width: 400px;
+  max-height: 400px;
+  object-fit: contain; 
+}
+.row{
+  margin-bottom: 3%;
+}
+
+/* --------ABOUT US PAGE----------- */
+
+.teaminfo .card-text
+{
+   font-family: 'Ruda', Sans-Serif;
+    font-size: 19px;
+    text-align: center;
+}
+
+.teaminfo .card-title
+{
+    font-size: 20px;
+    font-family: 'Ruda', Sans-Serif;
+    text-align: center;
+}
+.aboutusbox{
+  margin-top: 3%;
+  color: white;
+}
+.aboutusbox p{
+  font-size: 18px;
+}
+.aboutusbox h4{
+  font-size: 26px;
+}
+.pictures
+{
+    height: 170px;
+    float: left;
+}
+.textpictures
+{
+    font-size: 16px;
+    font-family: 'Ruda', Sans-Serif;
+
+}
+.teaminfo{
+  display: flex;
+  margin-bottom: 3%;
+
+}
+
+.teamcard {
+  box-shadow: 0 4px 8px 0 #C3BD3D;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  float: left;
+  flex: 1;
+}
+.teamcard:first-child{
+margin-right: 20px;
+}
+
+.title {
+  color: #3dc3bd;
+  font-size: 18px;
+}
+
+.cardbtn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+/* --------REGISTER PAGE----------- */
+
+.brand-wrapper {
+  margin-bottom: 19px; }
+  .brand-wrapper .logo {
+    height: 60px;
+        width: auto;
+}
+
+.login-card {
+  margin-top: 62px;
+  border: 0;
+  border-radius: 27.5px;
+  box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
+  height: 65%;
+  overflow: hidden; 
+}
+ .login-card-img {
+    border-radius: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+     object-fit: cover;
+}
+ .login-card .card-body {
+    padding: 15px 30px 40px; 
+}
+@media (max-width: 422px) {
+ .login-card .card-body {
+        padding: 20px 24px; 
+} }
+.login-card-description {
+    font-size: 25px;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 23px; }
+  .login-card form {
+    max-width: 326px; }
+  .login-card .form-control {
+    border: 1px solid #d5dae2;
+    padding: 5px 25px;
+    margin-bottom: 20px;
+    min-height: 45px;
+    font-size: 13px;
+    line-height: 15;
+    font-weight: normal; }
+    .login-card .form-control::-webkit-input-placeholder {
+      color: #919aa3; }
+    .login-card .form-control::-moz-placeholder {
+      color: #919aa3; }
+    .login-card .form-control:-ms-input-placeholder {
+      color: #919aa3; }
+    .login-card .form-control::-ms-input-placeholder {
+      color: #919aa3; }
+    .login-card .form-control::placeholder {
+      color: #919aa3; }
+  .login-card .login-btn {
+    padding: 13px 20px 12px;
+    background-color: #000;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 24px; }
+    .login-card .login-btn:hover {
+      border: 1px solid #000;
+      background-color: transparent;
+      color: #000; }
+  .login-card .forgot-password-link {
+    font-size: 14px;
+    color: #919aa3;
+    margin-bottom: 12px; }
+  .login-card-footer-text {
+    font-size: 16px;
+    color: #0d2366;
+    margin-bottom: 60px; }
+    @media (max-width: 767px) {
+      .login-card-footer-text {
+        margin-bottom: 24px; } }
+  .login-card-footer-nav a {
+    font-size: 14px;
+    color: #919aa3; }
+
+
+
+/* --------SIGN IN PAGE----------- */
+
+.login-card {
+ margin-top: 65px;
+  border: 0;
+  border-radius: 27.5px;
+  box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
+    height: 70%;
+  overflow: hidden; }
+  .login-card-img {
+    border-radius: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .login-card .card-body {
+    padding: 15px 30px 40px; }
+    @media (max-width: 422px) {
+      .login-card .card-body {
+        padding: 20px 24px; } }
+  .login-card-description {
+    font-size: 25px;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 23px; }
+  .login-card form {
+    max-width: 326px; }
+  .login-card .form-control {
+    border: 1px solid #d5dae2;
+    padding: 5px 25px;
+    margin-bottom: 20px;
+    min-height: 45px;
+    font-size: 13px;
+    line-height: 15;
+    font-weight: normal; }
+    .login-card .form-control::-webkit-input-placeholder {
+      color: #919aa3; }
+    .login-card .form-control::-moz-placeholder {
+      color: #919aa3; }
+    .login-card .form-control:-ms-input-placeholder {
+      color: #919aa3; }
+    .login-card .form-control::-ms-input-placeholder {
+      color: #919aa3; }
+    .login-card .form-control::placeholder {
+      color: #919aa3; }
+  .login-card .login-btn {
+    padding: 13px 20px 12px;
+    background-color: #000;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 24px; }
+    .login-card .login-btn:hover {
+      border: 1px solid #000;
+      background-color: transparent;
+      color: #000; }
+  .login-card .forgot-password-link {
+    font-size: 14px;
+    color: #919aa3;
+    margin-bottom: 12px; }
+  .login-card-footer-text {
+    font-size: 16px;
+    color: #0d2366;
+    margin-bottom: 60px; }
+    @media (max-width: 767px) {
+      .login-card-footer-text {
+        margin-bottom: 24px; } }
+  .login-card-footer-nav a {
+    font-size: 14px;
+    color: #919aa3; }
+
+/* ICON SETTINGS FOR BOTH LOGIN AND REGISTER PAGES */
+
+.fa-facebook {
+  background:white;
+  color: blue;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 50px;
+  width: 7%;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+    color: black
+}
+
+/*Choose Subject*/
+
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+}
+.card-columns .card{
+   background-color: #3dc3bd;
+   width: 330px;
+   height: 200px;
+}
+.subjects .card-text{
+  text-align: center;
+  padding: 60px;
+  font-size: 32px;
+  color: white;
+  font-family: "Roboto Slab", Sans-Serif;
+}
+.subjects, .category h1{
+  color: white;
+  padding: 18px;
+  text-align: center;
+}
+
+/* ----CATEGORIES---*/
+
+.category .card{
+  background-color: #3dc3bd;
+   width: 530px;
+   height: 100px;
+   padding: 20px;
+   color: white;
+   margin: 0 auto;
+   margin-bottom: 6px;
+}
