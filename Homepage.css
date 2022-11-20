@@ -181,6 +181,9 @@ h4{
 .choosesub .card img{
   opacity: 0.5;
 }
+.choosesub .card:hover{
+  opacity: 0.6;
+}
 .choosesub .card h3{
   height: 90%; 
     width:100%;
